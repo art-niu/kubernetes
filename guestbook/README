@@ -1,0 +1,4 @@
+Automatically expose guestbook frontend service to LoadBalancer in AWS.
+
+frontend-service.yaml is customized.
+$ kubectl apply -f frontend-service.yaml
