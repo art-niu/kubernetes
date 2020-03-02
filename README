@@ -1,2 +1,14 @@
+Kubernetes Objects are persistent entities in the cluster. These objects are used to represent the state of the cluster.
+The following are some of the Kubernetes Objects:
+  - pods
+  - Namespaces
+  - ReplicationController (Manages Pods)
+  - DeploymentController (Manages Pods)
+  - StatefulSets
+  - DaemonSets
+  - Services
+  - ConfigMaps
+  - Volumes
+  
 # Update local kubeconfig for new cluster
 aws eks --region us-west-2 update-kubeconfig --name Art-eks-01

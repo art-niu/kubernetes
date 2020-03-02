@@ -12,3 +12,4 @@ kubectl delete service -l app=redis
 
 # Verify if the resources are released
 kubectl get pods
+

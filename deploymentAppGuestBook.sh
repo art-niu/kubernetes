@@ -31,3 +31,4 @@ kubectl get service frontend
 
 # Below commands can be used to scale in number of Frontend pods
 # kubectl scale deployment frontend --replicas=2
+
