@@ -10,7 +10,7 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   storageClassName: local-storage
   local:
-    path: /home/arthur/mysql
+    path: /home/wp-mysql/mysql
   nodeAffinity:
     required:
       nodeSelectorTerms:
