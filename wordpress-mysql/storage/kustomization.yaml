@@ -1,7 +1,7 @@
 resources:
   - local-storageclass.yaml
   - create-mysql-pv.yaml    
+  - create-mysql-pvc.yaml   
   - create-wp-pv.yaml      
-  #- create-mysql-pvc.yaml   
-  #- create-wp-pvc.yaml      
+  - create-wp-pvc.yaml      
 
